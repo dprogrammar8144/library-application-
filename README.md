@@ -1,14 +1,15 @@
 # library-application-
 Code Challenge
 
-How to run the api's endpoint using a postman
+How to run the api's endpoint using a swagger
 
-Step 1) Open a postman. ...
-Step 2) Enter the URL of API to test. ...
-Step 3) Select the HTTP method. ...
-Step 4) Provide required Body content. ...
-Step 5) Select Raw.
-Step 6) Select JSON(application/json)
-Step 7) Click on Send.
-Step 8) If Supplier record successfully gets updated it returns status as 200 Ok.
+Running the application is easy, all you need to do is to download the folder from the repo to your local drive c or any location on your pc
+ then run the BookStoreApi.sln from the downloaded file.
+ 
+ then open the appsettings.json on the application and change the sql instance name to the one on your system then go manager console and type in the commpand
+ to uodate database (update-database) to install all the migration
+ 
+ after that you can run the application and it will display through swagger where u see all the endpoint then you can test
+ 
+ thank you
 
